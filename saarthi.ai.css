@@ -1,0 +1,41 @@
+td{
+    border:1px solid black;
+    padding:20px;
+}
+th{
+    background-color:mediumseagreen ;
+    border:1px solid black;
+    padding:20px;
+}
+#submit{
+    background-color:#4386fc;
+    Padding:5px 15px;
+    color:#fff;
+}
+#newemployee{
+    background-color: green;
+    padding:5px 15px;
+    color:white;
+}
+#newemployee:hover{
+    background-color: green;
+    padding:5px 25px;
+    color:white;
+}
+tbody{
+    background-color: #fffaf4;
+}
+#submit:hover{
+    background-color:#4386fc ;
+    Padding:7px 16px;
+    color:white;
+}
+#list{
+    text-align : "left";
+}
+#tab,#data{
+    display:none;
+}
+h1{
+    text-align: center;
+}

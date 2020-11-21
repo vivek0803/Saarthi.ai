@@ -1,0 +1,63 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="saarthi.ai.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/a076d05399.js">
+    <script src="saarthi.ai.js"></script>
+</head>
+<body>
+    <body>
+        <h1>EMPLOYEE DETAILS</h1>
+        <button id="newemployee" onclick="disp();newemp()">New Employee</button>
+        <br><br>
+        <div id = "data">
+            <form id = "person">    
+                
+                Name: 
+                    <input id = "name" name = "name" type = "text">
+                    <br><br>
+                
+                EmployeeId: 
+                    <input id = "employeeId" name = "employeeId" type="number">
+                    <br><br>
+                Department: 
+                    <select id = "department" name = "department" >
+                        <option>Frontend</option>
+                        <option>Backend</option>
+                        <option>Marketing</option>
+                        <option>BD&M</option>
+                        <option>Deep Learning</option>
+                    </select>
+                    <br><br>
+                Email: 
+                    <input id = "email" name = "email" type="email">
+                    <br><br>
+                DOJ: 
+                    <input id="doj" name="doj" type="date">
+                    <br><br>
+                <input id = "submit" type = "button" value = " Submit"  onclick = "AddData();dta();display()">
+                
+            </form>
+        </div>
+        
+        
+        <div id = "tab">
+                <table id = "list" cellspacing="0px">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            
+                            <th>EmployeeId</th>
+                            <th>Department</th>
+                            <th>Email</th>
+                            <th>Doj</th>
+                            
+                        </tr>
+                    </thead>
+        
+                    <tbody>
+        
+                    </tbody>
+                </table>
+        </div>
+</body>
